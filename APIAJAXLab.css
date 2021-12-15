@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+#textInput{
+    background-color: whitesmoke;
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.cell0{
+    vertical-align: auto;
+    padding: 2px;
+}
+
+.cell1{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: bold
+}
+
+.cell2{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+} 
+
+.displayTable{
+    
+    width: 100%;
+}
+
+.newRow{
+    height:145px;
+}
